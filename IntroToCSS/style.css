@@ -1,0 +1,23 @@
+/* Comment format for CSS */
+
+/* Pick a tag you want to apply styles to */
+p {
+  color : aqua;
+  font-size : 20px;
+}
+
+/* If you have duplicated instructions... the one lowest will happen. So font size stays 20, but text turns blue */
+
+p {
+  color : blue;
+}
+
+/* To style a class, you do : .className {} */
+.text {
+  color : blueviolet;
+}
+
+/* To style a specific id, you do #idName {} */
+#primary-pangram {
+  color : orange
+}

@@ -1,0 +1,36 @@
+/* Start Navigation Styling */
+/* from the example code, every ul 
+   was replaced with nav-list and every li
+   was replaced with nav-item */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8417b3;
+  
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #453e70;
+}
+
+/* End Navigation Styling */
+
+
